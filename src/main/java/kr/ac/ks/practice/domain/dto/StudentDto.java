@@ -11,7 +11,7 @@ public class StudentDto {
     @Email
     private String email;
 
-    @NotBlank(message = "Email is mandatory")
+    @NotBlank(message = "phoneNo is mandatory")
     private String phoneNo;
 
     public StudentDto() {
